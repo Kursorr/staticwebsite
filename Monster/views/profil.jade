@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Présentation du monstre
+	p #{monster[0].name}, lvl #{monster[0].lvl}, #{monster[0].desc}
+
+	a(href="/#{monster[0]._id}/edit_monster") Modifiez
+	br
+	a(href="/#{monster[0]._id}/delete_monster") Supprimez

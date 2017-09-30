@@ -1,0 +1,223 @@
+body, div, table, tr ,td, img, ul, li, p, input, fieldset, iframe, h1, h2 ,h3 ,h4, h5, h6{
+    padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: top; /* Aligne au top les incohérences inline-block */
+	outline: none; /* bordure orange a la sélection d'un input */
+	list-style: none; /* Désactive les puces sur les ul/li/ol */
+}
+body{
+	font-family: calibri;
+	font-size: 16px;
+	position: relative;
+	background: url('../images/background.jpg') top center no-repeat fixed;
+}
+
+/* Positionnement Central */
+
+.global{
+	width: 1000px;
+	margin: auto;		
+	height: inherit;
+	position: relative;
+}
+
+/*Header*/
+
+#header{
+	background: black;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: -5;
+}
+		
+	#header #antarka{
+		height: 150px;
+		width: 500px;
+		margin: 70px 0 25px 0;
+	}
+
+/*Navigation*/
+
+nav{
+	margin-top: -1px;
+	float: hidden;
+	width: 100%;
+	height: 90px;
+	background: black;
+	margin-top: -27px;
+	z-index: 1;
+	border-top: solid orange 5px;
+	border-bottom: solid orange 5px;
+	padding-top: 10px;
+}
+
+li a{
+	float: left;
+	height: 80px;
+	color: red;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+	li a:hover{
+		color: green;
+	}
+
+		li a span{
+			display: block;
+			color: white;
+			text-align: center;
+		}
+
+			li a:hover span{  /*Je ne comprend pas ce code ... li a:hover span ... le span est aussi en hover sans l'attribut ":hover" ? Un peu contradictoire mais bon... */
+				color: red;
+			}
+
+	#nav1 a{
+		background:url(../images/menu_icon1.gif) bottom center no-repeat;
+	}
+
+		#nav1 a:hover{
+			background:url(../images/menu_icon1_active.gif) bottom center no-repeat;
+		}
+
+	#nav2 a{
+		background:url(../images/menu_icon2.gif) bottom center no-repeat;
+	}
+
+		#nav2 a:hover{
+			background:url(../images/menu_icon2_active.gif) bottom center no-repeat;
+		}
+		
+	#nav3 a{
+		background:url(../images/menu_icon3.gif) bottom center no-repeat;
+	}
+
+		#nav3 a:hover{
+			background:url(../images/menu_icon3_active.gif) bottom center no-repeat;
+		}
+		
+	#nav4 a{
+		background:url(../images/menu_icon4.gif) bottom center no-repeat;
+	}
+
+		#nav4 a:hover{
+			background:url(../images/menu_icon4_active.gif) bottom center no-repeat;
+		}
+		
+	#nav5 a{
+		background:url(../images/menu_icon5.gif) bottom center no-repeat;
+	}
+
+		#nav5 a:hover{
+			background:url(../images/menu_icon5_active.gif) bottom center no-repeat;
+		}
+		
+/*Navigation connect*/
+.connect{
+	margin-top: 25px;
+	width: 300px;
+	float: right;
+	height: 20px;
+}
+
+.connect li a{
+	height: 19px;
+}
+/*Slider*/
+
+.carousel .items{
+	height: 200px;
+	width: 1000px;
+	color: white;
+}
+
+	.carousel #nova{
+		background: url('images/nova.png');
+	}
+
+		.carousel .items{
+			margin-top: -200px;
+		}
+
+			.carousel .items .p{
+				margin-top: 175px;
+				margin-left: 15px;
+				background: black;
+				padding-left: 10px;
+				padding-right: 10px;
+				opacity: 0.7;
+				position: absolute;
+			}
+
+/*Body*/
+
+#body{
+	background: white;
+	width: 100%;
+	display: inline-block;
+}
+
+hr{
+	margin: 0 0 0 5px;
+}
+
+	#body #gauche{
+		width: 330px;
+		margin-left: 5px;
+		background: #CCC;
+		opacity: 1;
+	}
+
+		#body #gauche #actualite{
+			width: 330px;
+			margin-top: 5px;
+		}
+
+			#body #gauche #actualite h1{
+				font-size: 24px;
+				margin: 0 0 0 5px;
+				color: black;
+			}
+
+/*Footer*/
+
+#footer{
+	background: black;
+	display: inline-block;
+	width: 100%;
+}
+
+	#footer #text{
+		height: 215px;
+		width: 215px;
+		margin-left: -215px;
+		background: black;
+		opacity: 0.7;
+		color: white;
+		text-align: center;
+		display: inline-block;
+	}
+
+		#footer #text p{
+			font-size: 14px;
+			text-align: center;
+			
+		}
+
+	#footer #follow{
+		display: inline-block;
+	}
+
+		#footer #follow p{
+			margin-left: 555px;
+			color: #CCC;
+			text-transform: uppercase;
+			margin-bottom: 20px
+		}
+
+				#footer #follow li img{
+					margin: 0 0 20 732px;
+				}

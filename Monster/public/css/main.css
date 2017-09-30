@@ -1,0 +1,65 @@
+body{
+  background: #333 url(/img/wild_oliva.png);
+  color: #DDD;
+  font-family: Arial, sans-serif;
+  padding: 1em;
+  font-size: 18px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+a{
+  color: #DDD;
+}
+
+a:hover{
+  color: #FFF;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.8);
+}
+
+
+h1, .name{
+  font-family: 'Creepster', cursive;
+  text-shadow: 0 0 1em #000;
+}
+
+#menu{
+  background: rgba(130, 130, 130,0.5);
+}
+
+#menu a{
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 0.5em 1em;
+  border-right: 1px solid #888;
+}
+
+#menu a:hover{
+  background: #999;
+}
+
+#content{
+  padding: 2em;
+}
+
+.name{
+  font-size: 1.3em;
+}
+
+li.name{
+  padding: 0.3em;
+  list-style: none;
+}
+
+li.name a{
+  text-decoration: none;
+}
+
+.monster{
+  padding: 0.5em;
+  background: rgba(100, 100, 100, 0.5);
+  box-shadow: 0 0 3px #000;
+}

@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1 Liste des Monstres
+	for monster in monsters
+		li
+			a(href="/monster/"+monster.id)= monster.name

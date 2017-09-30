@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CV - Célestin Zozor</title>
+        <link rel="stylesheet" type="text/css" href="styley.css" />
+        
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+        // au chargement de la page   
+        window.onload = function() {
+                // tu instancie un nouvel objet Lating
+            	var myLatlng = new google.maps.LatLng(48.87578,2.334226);
+				// Paramètre de l'objet
+                var myMapOptions = {
+                    zoom: 16,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+				// Visiblement tu affiche une map dans l'element map de ta page
+                var myMap = new google.maps.Map(
+                    document.getElementById('map'),
+                    myMapOptions
+                    );
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <!--Header-->
+            <header>
+                <div>
+                    <img src="imagesCV/photo.png" alt="Célestin ZOZOR" width="145" height="145" title="Célestin ZOZOR" />
+                </div>
+                <hgroup>
+                    <h1>Célestin Zozor</h1>
+                    <h2>Intégrateur, mascotte, globe-trotteur et bourrique</h2>
+                </hgroup>
+            </header>
+
+            <!--Réseaux sociaux-->
+            <section class="social">
+                <ul>
+                    <li><a class="viadeo" href="#" target="_blank">Mon Viadeo</a></li>
+                    <li><a class="twitter" href="#" target="_blank">Mon Twitter</a></li>
+                    <li><a class="facebook" href="#" target="_blank">Mon Facebook</a></li>
+                    <li><a class="linkedin" href="#" target="_blank">Mon Linkedin</a></li>
+                    <li class="mail"><a href="mailto:zozor@simple-it.fr">Mon mail</a></li>
+                </ul>
+                <div class="clear"></div>
+            </section>
+
+            <!--Compétences-->
+            <section class="competences">
+                <h3>Compétences</h3>
+                <ul>
+                    <li class="html5">
+                        <span class="illustration"></span>
+                        <div>
+                            <span>HTML5</span>
+                            <span class="cinq"></span>
+                        </div>
+                    </li>
+                    <li class="css3">
+                     <span class="illustration"></span>
+                        <div>
+                            <span>CSS3</span>
+                            <span class="cinq"></span>
+                        </div>
+                    </li>
+                    <li class="php">
+                     <span class="illustration"></span>
+                        <div>
+                            <span>PHP</span>
+                            <span class="deux"></span>
+                        </div>
+                    </li>
+                    <li class="mysql">
+                     <span class="illustration"></span>
+                        <div>
+                            <span>MySql</span>
+                            <span class="un"></span>
+                        </div>
+                    </li>
+                    <li class="xml">
+                        <span class="illustration"></span>
+                        <div>
+                            <span>XML</span>
+                            <span class="trois"></span>
+                        </div>
+                    </li>
+                    <li class="xpath">
+                        <span class="illustration"></span>
+                        <div>
+                            <span>XPath</span>
+                            <span class="deux"></span>
+                        </div>
+                    </li>
+                    <li class="javascript">
+                     <span class="illustration"></span>
+                        <div>
+                            <span>Javascript</span>
+                            <span class="trois"></span>
+                        </div>
+                    </li>
+                    <li class="jquery">
+                        <span class="illustration"></span>
+                        <div>
+                            <span>jQuery</span>
+                            <span class="deux"></span>
+                        </div>
+                    </li>
+                    <li class="photoshop">
+                     <span class="illustration"></span>
+                        <div>
+                            <span>Photoshop</span>
+                            <span class="quatre"></span>
+                        </div>
+                    </li>
+                    <li class="illustrator">
+                        <span class="illustration"></span>
+                        <div>
+                            <span>Illustrator</span>
+                            <span class="deux"></span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </section>
+
+            <hr>
+
+            <!--Expériences-->
+            <section class="pro">
+                <h3>Expériences professionnelles</h3>
+                <ul>
+                    <li>
+                        <img src="imagesCV/experiences/simple_it_logo.png" alt="logo" />
+                        <div>
+                            <span>Depuis 2010 <strong>Intégrateur Web</strong> chez Simple IT, Paris</span>
+                            <p>
+                                Réalisation d'interfaces web riches dans le respect des maquettes fournies par le pôle graphisme.<br>
+                                Intégrations valides W3C en HTML5 et CSS3 pour la réalisation d'un site de cours en ligne.
+                                Mise en place de la stratégie de responsive web design pour un accès lisible sur tous les mobiles et toutes les tablettes.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/experiences/macdo_logo.png" alt="logo" />
+                        <div>
+                            <span>2009 <strong>Équipier polyvalent</strong> chez Mc Donalds, Avignon</span>
+                            <p>
+                                Tenue de la caisse, réalisation des hamburgers, des frites, des potatoes et de tout un tas d'autres choses bien grasses.
+                                Animations Ronald Mc Donald le weekend.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/experiences/tavel_logo.png" alt="logo" />
+                        <div>
+                            <span>2008 <strong>Vendanges</strong> chez Tavel</span>
+                            <p>
+                                Vendanges du premier rosé de France durant le mois de septembre 2008.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <!--Cursus-->
+            <section class="formations">
+                <h3>Formations &amp; diplômes</h3>
+                <ul>
+                    <li>
+                        <span>2003-2008 <strong>Diplôme d'ingénieur</strong> à Polytechnique</span>
+                        <p>
+                            Spécialité système d'information. Major de promo. Réalisation du projet de fin d'étude "OpenClassrooms" : plateforme communautaire d'éducation ouverte à tous.
+                        </p>
+                    </li>
+                    <li>
+                        <span>2001-2003 <strong>Baccalauréat scientifique</strong> lycée Henry IV, Paris</span>
+                        <p>
+                            Premier de la classe et délégué de classe chaque année !
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <!--Loisirs-->
+            <section class="loisirs">
+                <h3>Centres d'interêt</h3>
+                <ul>
+                    <li>
+                        <img src="imagesCV/centre_interet/voyages.png"  alt="logo"/>
+                        <div>
+                            <span>J'aime les voyages</span>
+                            <p>
+                                Chaque année, je pars en Asie, en Afrique ou en Océanie.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/centre_interet/jeux.png"  alt="logo"/>
+                        <div>
+                            <span>Les jeux vidéo</span>
+                            <p>
+                                FPS, RPG, Stratégie... Je suis un expert reconnu de DoTa
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/centre_interet/photographie.png"  alt="logo"/>
+                        <div>
+                            <span>La photographie</span>
+                            <p>
+                                Je fais des photos de mes nombreux voyages.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/centre_interet/tir_a_l_arc.png"  alt="logo"/>
+                        <div>
+                            <span>Le tir à l'arc</span>
+                            <p>
+                                Je pratique depuis tout petit et je ne rate jamais ma cible !
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/centre_interet/films.png"  alt="logo"/>
+                        <div>
+                            <span>Les films</span>
+                            <p>
+                                Je suis un fan absolu de l'âne dans Shrek (c'est mon cousin).
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagesCV/centre_interet/poulet.png"  alt="logo"/>
+                        <div>
+                            <span>Manger du poulet</span>
+                            <p>
+                                J'ai fait de cette passion un site
+                                www.zozormangedupoulet.eu
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </section>
+
+            <hr>
+
+            <!--Footer-->
+            <footer class="contact">
+                <h3>Contact</h3>
+                <form method="post" action="#">
+                    <input type="text" placeholder="Votre nom" />
+                    <input type="email" placeholder="Votre email" />
+                    <textarea placeholder="Votre message" rows="5"></textarea>
+
+                    <input type="submit" value="Envoyer" />
+                </form>
+                <div>
+                    <address>
+                        28 Boulevard Haussmann<br>
+                        75009 Paris<br>
+                        <abbr>Tél.</abbr> : 06 06 06 06 06
+                    </address>
+                    <!-- Ici sera intégrer l'objet google map -->
+                    <div id="map"></div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

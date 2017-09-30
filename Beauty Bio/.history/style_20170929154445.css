@@ -1,0 +1,234 @@
+/* Reset and principal configuration */
+
+body, h1, h2, h3, h4, h5, h6, ul, li, a, span, p {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a, p a, h1 a, h2 a {
+    text-decoration: none;
+    color: #131313;
+}
+
+html, body {
+    height: 100%;
+    color: #131313;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: "DroidSerif";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section.global {
+    display: flex;
+    width: 80vw;
+    max-width: 1170px;
+    justify-content: center;
+}
+
+.global .col {
+    flex-direction: column;
+}
+
+/* icon */
+
+i {
+    color:black;
+    margin-right:10px;
+}
+
+
+/* Social & Contact bar */
+
+body > section#contact_social {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "DroidSerif";
+    color: rgb(148, 148, 148);
+}
+
+    section#contact_social > section.global > section#contact {
+        flex-grow: 1;
+    }
+
+
+/* Header & Navigation bar */
+
+body > section#header_nav {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px 35px 0px;
+    flex-shrink: 0;
+}
+
+    section#header_nav > section.global > header {
+        flex-grow: 2;
+    }
+
+    section#header_nav > section.global > nav {
+        flex-grow: 1;
+        font-size: 13px;
+        font-family: "Raleway";
+        color: rgb(50, 50, 50);
+        font-weight: bold;
+    }
+
+        section#header_nav > section.global > nav > ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+            nav > ul > li > a {
+                margin-left: 60px;
+            }
+
+                    nav > ul > li > a > span {
+                        text-transform: uppercase;
+                        border-bottom: solid rgb(240, 240, 240) 1px;
+                        padding: 0px 5px 5px 5px;
+                    }
+
+                    nav > ul > li > a > span:hover {
+                        border-bottom: solid rgb(249, 163, 146) 1px;
+                    }
+
+
+/* Slider */
+
+.centeredText{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-60%);
+    width: 100%;
+    text-align:center;
+    line-height: 1.2;
+}
+
+    .centeredText > h2 {
+        font-size: 68px;
+        font-family: "MrDeHaviland", serif;
+        color: rgb( 255, 255, 255 );
+    }
+
+    .centeredText > h1 {
+        font-size: 68px;
+        font-family: "MrDeHaviland", serif;
+        color: rgb( 255, 255, 255 );
+    }
+
+    .centeredText > p {
+        font-size: 17px;
+        font-family: "DroidSerif";
+        color: rgb( 255, 255, 255 );
+    }
+
+    .centeredText > button {
+        margin-top: 30px;
+        background-color: rgb( 249, 163, 146 );
+        border: none;
+        border-radius: 2px;
+        width: 309px;
+        height: 64px;
+        color: white;
+    }
+
+
+/* Informations - About Us & Open Hours & Contacts */
+
+#infos {
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+    #infos > section.global > section.element {
+        flex: 1;
+    }
+
+        #infos > section.global > section.element > h2 {
+            font-size: 14px;
+            font-family: "Raleway";
+            color: rgb(50, 50, 50);
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+
+        #infos > section.global > section.element > p {
+            font-size: 14px;
+            font-family: "DroidSerif";
+            color: rgb(117, 117, 117);
+        }
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+    footer > #newsletter {
+        margin-bottom: 45px;
+    }
+
+        footer > #newsletter > h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-family: "Raleway";
+            color: rgb(50, 50, 50);
+        }
+
+        footer > #newsletter > input {
+            border: none;
+            font-size: 13px;
+            font-family: "DroidSerif";
+            color: rgb( 154, 154, 154 );
+            font-style: italic;
+            height: 49px;
+            width: 300px;
+        }
+
+        footer > #newsletter > button {
+            font-size: 11px;
+            font-family: "Raleway";
+            color: rgb( 255, 255, 255 );
+            font-weight: bold;
+            background-color: rgb( 43, 43, 43 );
+            width: 139px;
+            height: 49px;
+        }
+
+    footer > #terms > p {
+        margin-top: 25px;
+    }
+
+        footer > #social2 > a > i {
+            margin: 0px 15px 0px 15px;
+        }
+
+span.color {
+    color: rgb(249, 163, 146);
+}

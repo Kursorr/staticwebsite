@@ -1,0 +1,18 @@
+#profil{
+	height: 30px;
+	background: black;
+}
+
+	#profil ul{
+		height: 30px;
+	}
+
+		#profil ul li{
+			height: 30px;
+			padding-top: 5px;
+		}
+
+			#profil ul li a{
+				height: 25px;
+			}
+

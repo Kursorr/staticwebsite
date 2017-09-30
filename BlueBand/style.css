@@ -1,0 +1,403 @@
+/* Feuille de style index */
+body, div, table, tr ,td, img, ul, li, p, input, fieldset, iframe, h1, h2 ,h3 ,h4, h5, h6{
+    padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: top; /* Aligne au top les incohérences inline-block */
+	outline: none; /* bordure orange a la sélection d'un input */
+	list-style: none; /* Désactive les puces sur les ul/li/ol */
+}
+body{
+	font-family: calibri;
+	font-size: 16px;
+	position: relative;
+	background: #e5e5e5;
+}
+
+/* Positionnement Central */
+
+.global{
+	width: 1000px;
+	margin: auto;
+	height: inherit;
+	position: relative;
+}
+
+/* Header */
+
+#header{
+	height: 250px;
+	background: url('images/top.jpg') repeat-x;
+}
+
+	#header #banner-image{
+		background: black;
+		width: 950px;
+		height: 150px;
+		float: left;
+		margin-top: 10px;
+	}
+
+		#header #banner-image #logo{
+			position: absolute;/*Position absolute obligé pour pouvoir le déplacer ou je souhaite exactement...*/
+			top: 25px;
+						/*Top, left, right et bottom sont utilisable UNIQUEMENT quand il y a une position absolute !*/
+			left: 20px;
+		}
+
+		#header #banner-image #search{
+			height: 30px;
+			width: 190px;
+			background: #f1f1f1;
+			margin-left: 730px;
+			margin-top: -100px;
+		}
+
+		#header #banner-image #button{
+			margin-left: 920px;
+			margin-top: -121px;
+		}
+
+			#header #banner-image #button:hover{
+				cursor: pointer;
+			}
+
+		#header #banner-image #title{
+			color: #1FA1C6;;
+			filter: dropshadow(color=#f05c27, offx=1, offy=1);
+			text-shadow: -1px 1px #f05c27;
+			font-size: 10px;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+
+/*Navigation*/
+
+	#header nav{
+		margin-top: 50px;
+		margin-left: 350px;
+		float: left;
+	}
+
+		#header nav ul{
+			width: 750px;
+		}
+
+		#header nav ul li{
+			float: left;
+			color: white;
+			font-size: 18px;
+			margin-left: 10px;
+			position: relative;
+			text-align: center;
+			text-decoration: none;
+		}
+
+			#header nav ul li a{
+				background-image: url(images/but_bg.png);
+				background-repeat: no-repeat;
+				background-position: 20px 18px;
+				display: block;
+				text-decoration: none;
+				color: white;
+				width: 100px;
+				height: 60px;
+			}
+
+			#header nav ul li:hover{
+				cursor: pointer;
+			}
+
+/*Grande Image de Jazz*/
+
+#jazzcontour{
+	height: 395px;
+	width: 965px;
+	border: solid white 2px;
+	border-radius: 12px 12px 12px 12px;
+	box-shadow: 1px 1px 8px 1px black;
+	background: #e4e4e4;
+	margin-top: 50px;
+}
+
+	#jazzcontour #jazz{
+		height: 383px;
+		width: 955px;
+		background: white;
+		background: url('images/intro-bg.png');
+		margin-top: 5px;
+		margin-bottom: 15px;
+		margin-left: 4px;
+	}
+
+		#jazzcontour #jazz #Read{
+			margin-top: 290px;
+			margin-left: 20px;
+			height: 40px;
+			width: 600px;
+			border: solid black 1px;
+			border-radius: 8px 8px 8px 8px;
+			box-shadow: 2px 1px 2px 1px;
+			opacity: 0.5;
+			font-size: 18px;
+		}
+
+		#jazzcontour #jazz #rad{
+			margin-top: 290px;
+			margin-left: 5px;
+			border-radius: 8px;
+			background: red;
+			font-size: 10px;
+			color: white;
+			padding: 2px;
+		}
+
+			#jazzcontour #jazz #rad:hover{
+				color: #9acd34;
+				cursor: pointer;
+			}
+
+/*News + Info Jonny Doe*/
+
+/*Plateau blanc + colonne 1 (càd : groupe + le saxo ...)*/
+
+#plateau{
+	border: solid black 1px;
+	width: 950px;
+	margin-left: 5px;
+	margin-top: 35px;
+	border-radius: 8px 8px 8px 8px;
+	display: inline-block;
+	margin-bottom: 15px;
+	background: white;
+}
+	#plateau #column1{
+		width: 585px;
+		height: 750px;
+		display: inline-block;
+		margin-top: 25px;
+	}
+
+		#plateau #column1 .contour{
+			border: solid grey 1px;
+			border-radius: 8px 8px 8px 8px;
+			box-shadow: 1px 1px 4px grey;
+			height: 250px;
+			width: 300px;
+			background: #e5e5e5;
+			margin-left: 5px;
+			margin-top: 20px;
+			display: inline-block;
+		}
+
+			#plateau #column1 .contour .contour2{
+				height: 200px;
+				width: 255px;
+				background: white;
+				margin-left: 25px;
+				margin-top: 25px;
+			}
+
+				#plateau #column1 .contour .contour2 #groupe{
+					height: 199px;
+					width: 254px;
+					background: url('images/jazz_b.png');
+				}
+
+				#plateau #column1 .contour .contour2 #saxo{
+					height: 201px;
+					width: 251px;
+					background: url('images/sax.jpg');
+				}
+
+/*L'écrit à droite de l'image du groupe*/
+
+#plateau #column1 .Lorem{
+	display: inline-block;
+	margin-top: 90px;
+	margin-left: 20px;
+	color: grey;
+}
+
+/*Events*/
+
+#plateau #column1 .Events .events{
+	margin-left: -42px;
+	margin-top: 10px;
+}
+
+#plateau #column1 .Events .event{
+		margin-top: -45px;
+		margin-left: 5px;
+	}
+
+#plateau #column1 .Events .p{
+	margin-top: -30px;
+	margin-left: 75px;
+	color: grey;
+}
+
+/*News + Info Jonny Doe*/
+
+/*Plateau blanc + colonne 2 (càd : Jonny Doe + un son)*/
+
+#plateau #column2{
+	width: 361px;
+	float: right;
+	display: inline-block;
+}
+
+/*Envoie mail*/
+
+	#plateau #column2 #envoiemail{
+		margin-top: 5px;
+	}
+
+		#plateau #column2 #envoiemail #email{
+			border: solid black 1px;
+			margin-top: 2px;
+		}
+
+		#plateau #column2 #envoiemail #mail{
+			display: block;
+			border: solid black 1px;
+			border-radius: 5px;
+			padding: 8px;
+			margin-left: 5px;
+			margin-top: 2px;
+			background: #e5e5e5;
+		}
+
+/*Présentation de Jonny Doe*/
+
+		#plateau #column2 #JonnyDoe #justforfun{
+			margin-top: 45px;
+		}
+
+		#plateau #column2 #JonnyDoe #JonnY{
+			margin-left: 20px;
+			margin-top: 10px;
+			border-radius: 10px;
+			box-shadow: 1px 2px 5px grey;
+		}
+
+		#plateau #column2 #JonnyDoe #name{
+			margin-top: 15px;
+		}
+
+		#plateau #column2 #JonnyDoe #More{
+			border: solid black 1px;
+			border-radius: 5px;
+			padding: 8px;
+			margin-left: 5px;
+			margin-top: 25px;
+			margin-bottom: 20px;
+			background: #e5e5e5;
+		}
+
+		#plateau #column2 #JonnyDoe #blabla{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		#plateau #column2 #JonnyDoe #blabla2{
+			margin-bottom: 15px;
+		}
+
+			#plateau #column2 #JonnyDoe #blabla .us{
+				font-size: 18px;
+				color: grey;
+			}
+
+				#plateau #column2 #JonnyDoe #blabla .us:hover{
+					color: #febf0f;
+					cursor: pointer;
+				}
+
+/*Artist/Event/Concert*/
+
+#colonne{
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 0px;
+	width: 950px;
+	top: 0;
+}
+
+	#colonne ul{
+		float: left;
+		margin-right: 152px;
+	}
+
+		#colonne ul .espace{
+			margin-left: 50px;
+			padding-top: 10px;
+		}
+
+		#colonne ul .titre{
+			color: black;
+			font-size: 26px;
+			font-weight: bold;
+			margin: 10px;
+		}
+
+	.complet{
+		margin: 1px;
+		display: inline-block;
+	}
+
+	.complet .text{
+		border-bottom: solid white 1px;
+		background: #e5e5e5;
+		width: 100px;
+		margin-top: 20px;
+	}
+
+	.complet .ok{
+		margin-left: 85px;
+		margin-top: 20px;
+	}
+
+	.complet .in{
+		border-radius: 15px;
+		background: red;
+		font-size: 10px;
+		padding: 3px;
+		color: white;
+		margin-top: 40px;
+		border-bottom: solid black 1px;
+	}
+
+/*Footer*/
+
+#footer{
+	height: 250px;
+	background:url('images/footer.jpg') repeat-x;
+	margin-top: 50px;
+}
+
+	#footer nav ul li{
+		float: left;
+		color: white;
+		margin-top: 80px;
+		font-size: 18px;
+		margin-left: 55px;
+		background: url('images/post_arr.png') no-repeat left center;
+		padding-left: 15px;
+	}
+
+		#footer nav ul li:hover{
+			cursor: pointer;
+			color: yellow;
+		}
+
+
+	#footer #fullimg{
+		float: right;
+		margin-top: 20px;
+		margin-right: 35px;
+	}
+
+		#footer #fullimg:hover{
+			cursor: pointer;
+		}

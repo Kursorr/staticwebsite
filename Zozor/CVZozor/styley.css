@@ -1,0 +1,483 @@
+body{
+    background: url(imagesCV/background.png);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    margin: 10px 0;
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-weight: normal;
+    font-size: 31px;
+    font-family: 'Pacifico', cursive;
+}
+
+hr{
+    border-right: none;
+    border-bottom-color: white;
+    border-left: none;
+    color: #002D40;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+}
+
+section h3:before, footer h3:before{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    width: 32px;
+    height: 32px;
+    content: "";
+    vertical-align: sub;
+}
+
+/* Header */
+
+header div{
+    display: inline-block;
+    margin-right: 30px;
+    width: 155px;
+    vertical-align: top;
+}
+
+header div img{
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #696969;
+}
+
+header hgroup{
+    display: inline-block;
+    width: 510px;
+    vertical-align: top;
+}
+
+header hgroup h1{
+    margin: 0;
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-weight: normal;
+    font-size: 85px;
+    font-family: 'Pacifico', cursive;
+    line-height: 110px;
+}
+
+header hgroup h2{
+    margin: 0;
+    color: #03638B;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-weight: normal;
+}
+
+/* Section Social */
+
+.social ul{
+    padding: 0 30px;
+    height: 40px;
+    border-top: 1px solid #002D40;
+    border-bottom: 1px solid #002D40;
+    text-align: center;
+    line-height: 40px;
+}
+
+.social ul li{
+    float: left;
+    padding-right: 20px;
+}
+
+.social ul li:last-child{
+    padding-right: 0;
+}
+
+.social ul li a{
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.social ul li a:before{
+    display: inline-block;
+    margin-right: 7px;
+    width: 22px;
+    height: 22px;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+.social ul li .viadeo:before{
+    background: url(imagesCV/social/viadeo.png);
+}
+
+.social ul li .twitter:before{
+    background: url(imagesCV/social/twitter.png);
+}
+
+.social ul li .facebook:before{
+    background: url(imagesCV/social/facebook.png);
+}
+
+.social ul li .linkedin:before{
+    background: url(imagesCV/social/linkedin.png);
+}
+
+.social ul .mail a:before{
+    background: url(imagesCV/social/mail.png);
+    display: inline-block;
+    margin-right: 7px;
+    width: 22px;
+    height: 22px;
+    content: "";
+    vertical-align: text-bottom;
+}
+
+/* Section Compétences */
+
+.competences h3:before{
+    background: url(imagesCV/titres/competences.png);
+}
+
+.competences ul li{
+    float: left;
+    margin-right: 40px;
+    line-height: 12px;
+}
+
+.competences ul li .illustration{
+    display: inline-block;
+    margin: 0 10px 15px 0;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+}
+
+.competences ul li div{
+    display: inline-block;
+}
+
+.competences ul li div span:first-child{
+    display: block;
+    margin-bottom: 5px;
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.competences ul .html5 span.illustration{
+    background: url(imagesCV/competences/html5.png);
+}
+
+.competences ul .css3 span.illustration{
+    background: url(imagesCV/competences/css3.png);
+}
+
+.competences ul .php span.illustration{
+    background: url(imagesCV/competences/php.png);
+}
+
+.competences ul .mysql span.illustration{
+    background: url(imagesCV/competences/mysql.png);
+}
+
+.competences ul .xml span.illustration{
+    background: url(imagesCV/competences/xml.png);
+}
+
+.competences ul .xpath span.illustration{
+    background: url(imagesCV/competences/xpath.png);
+}
+
+.competences ul .javascript span.illustration{
+    background: url(imagesCV/competences/javascript.png);
+}
+
+.competences ul .jquery span.illustration{
+    background: url(imagesCV/competences/jquery.png);
+}
+
+.competences ul .photoshop span.illustration{
+    background: url(imagesCV/competences/ps.png);
+}
+
+.competences ul .illustrator span.illustration{
+    background: url(imagesCV/competences/illustrator.png);
+}
+
+.competences ul li div span:first-child + span{
+    display: inline-block;
+	width: 83px;
+	height: 14px;
+    background-repeat: no-repeat;
+}
+
+.competences ul li div span.cinq{
+    background: url(imagesCV/competences/niveau.png);
+    background-position: 0 0;
+}
+
+.competences ul li div span.quatre{
+    background: url(imagesCV/competences/niveau.png);
+    background-position: 0 -16px;
+}
+
+.competences ul li div span.trois{
+    background: url(imagesCV/competences/niveau.png);
+    background-position: 0 -32px;
+}
+
+.competences ul li div span.deux{
+    background: url(imagesCV/competences/niveau.png);
+    background-position: 0 -48px;
+}
+
+.competences ul li div span.un{
+    background: url(imagesCV/competences/niveau.png);
+    background-position: 0 -64px;
+}
+
+/* Section Pro */
+
+.pro h3:before{
+    background: url(imagesCV/titres/experiences_pro.png);
+}
+
+.pro ul li img{
+    display: inline-block;
+    margin-right: 20px;
+    width: 105px;
+    vertical-align: top;
+}
+
+.pro ul li div{
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+}
+
+.pro ul li div span{
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.pro ul li div p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #666663;
+    font-size: 13px;
+}
+
+
+
+/* Section Formation */
+
+.formations h3:before{
+    background: url(imagesCV/titres/formations.png);
+}
+
+.formations ul li span{
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.formations ul li p{
+    margin: 5px 0 15px 0;
+    color: #666663;
+    font-size: 13px;
+}
+/* Section Loisirs */
+
+.loisirs h3:before{
+    background: url(imagesCV/titres/centre_interet.png);
+}
+
+.loisirs ul li{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.loisirs ul li:nth-child(3n){
+    margin-right: 0;
+}
+
+.loisirs ul li img{
+    display: inline-block;
+    margin-right: 10px;
+    width: 32px;
+    vertical-align: top;
+}
+
+.loisirs ul li div{
+    display: inline-block;
+    width: 170px;
+}
+
+.loisirs ul li div span{
+    color: #002D40;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.loisirs ul li div p{
+    margin: 0 0 10px 0;
+    color: #666663;
+    font-size: 13px;
+}
+
+/* Section Contact */
+
+.contact h3:before{
+    background: url(imagesCV/titres/contact.png);
+}
+
+.contact form{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.contact form input, .contact form textarea{
+    margin-bottom: 30px;
+    width: 298px;
+    border: 1px solid #002D40;
+    border-radius: 3px;
+    background: transparent;
+    box-shadow: 0px 2px 1px rgb(105, 105, 105) inset;
+}
+
+.contact form input{
+    margin-bottom: 5px;
+    height: 23px;
+}
+
+::-webkit-input-placeholder {
+   font-size: 13px;
+}
+
+:-moz-placeholder {
+   font-size: 13px;
+}
+
+.contact form textarea{
+    height: 99px;
+}
+
+.contact form input[type="submit"]{
+    float: right;
+    padding-left: 30px;
+    width: 87px;
+    height: 30px;
+    background-color: #002D40;
+    background-image: url(imagesCV/enveloppe.png);
+    background-repeat:  no-repeat;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.contact form + div{
+    display: inline-block;
+    padding-left: 20px;
+    width: 370px;
+    vertical-align: top;
+}
+
+.contact form + div address{
+    margin-bottom: 10px;
+    color: #666663;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.contact form + div #map {
+    width : 370px;
+    height : 162px;
+    border : 1px solid #888;
+}
+
+
+
+
+
+/* Instructions responsive pour l'affichage mobile */
+
+@media (min-width: 0px) and (max-width: 480px) {
+    body
+    {
+        min-width: 320px;
+    }
+    
+    .container, header hgroup, .pro ul li div, .contact form, .contact form + div, .contact form + div #map{
+        width: 100%;
+    }
+
+    .contact form + div
+    {
+        padding-left: 0px;
+    }
+
+    header div
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    header hgroup h1
+    {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    header hgroup h2
+    {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .social ul
+    {
+        border: 0;
+    }
+
+    .social ul li
+    {
+        width: 100%;
+        display: block;
+        text-align: left;
+
+    }
+
+    .social ul li .facebook:before, .social ul li .viadeo:before, .social ul li .linkedin:before, .social ul li .twitter:before, .social ul .mail a:before
+    {
+        background: none;
+    }
+
+    h3
+    {
+        font-size: 1.3em;
+    }
+
+    .competences h3:before, .pro h3:before, .formations h3:before, .loisirs h3:before,  .contact h3:before
+    {
+        background: none;
+        margin-left: 0;
+    }
+
+    .pro ul li img
+    {
+        display: none;
+    }
+
+}

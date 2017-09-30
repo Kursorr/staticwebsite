@@ -1,0 +1,38 @@
+#body form{
+	text-align:center;
+    width: 350px;
+    margin-left: 325px;
+    background: #ecf0f1;
+}
+    
+#body label{
+	color: black;
+   	display: block;
+    padding: 5px 10px 5px 10px;
+}
+    
+#body input{
+    margin-right: 5px;
+    border: solid black 1px;
+    margin-bottom: 5px;
+}
+
+#body #titre{
+	text-align: center;
+	background: #7f8c8d;
+	margin-bottom: 25px;
+}
+
+#submit{
+	color: #d35400;
+	margin-top: 15px;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	background: black;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+	#submit:hover{
+		color: #27ae60;
+	}

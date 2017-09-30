@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Editez #{monster.name}
+	form(method="POST", action='/'+monster.id+'/edit_monster')
+		input(type="text", name="name" placeholder="Nom" value=monster.name)
+		input(type="text", name="lvl" placeholder="Lvl" value=monster.lvl)
+		input(type="text", name="desc" placeholder="Description" value=monster.desc)
+		input(type="submit" value="Enregistrer les modifications")

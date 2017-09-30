@@ -1,0 +1,194 @@
+/* Feuille de style index */
+body, div, table, tr ,td, img, ul, li, p, input, fieldset, iframe, h1, h2 ,h3 ,h4, h5, h6{
+    padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: top; /* Aligne au top les incohérences inline-block */
+	outline: none; /* bordure orange a la sélection d'un input */
+	list-style: none; /* Désactive les puces sur les ul/li/ol */
+}
+body{
+	font-family: calibri;
+	font-size: 16px;
+	position: relative;
+	background: url('images/bg.jpg') top center;
+}
+
+/* Positionnement Central */
+
+.global{
+	width: 980px;
+	margin: auto;
+	height: inherit;
+	position: relative;
+}
+
+/* Header */
+
+#header{
+	background: url('images/header.jpg') top center;
+	width: 980px;
+	height: 300px;
+}
+
+/* Navigation haut */
+
+	#header #nav{
+		background: url('images/navi.jpg');
+		width: 980px;
+		height: 30px;
+		display: inline-block;
+		margin-top: 310px;
+	}
+	
+		#header #nav ul{
+			background: black;
+			margin: 5px 243px 0 220px; /* Haut droite bas et gauche = comme l'aiguille d'une montre... */
+		}
+	
+			#header #nav ul li{
+				display: inline-block;
+			}
+	
+				#header #nav ul li a{
+					color: red;
+					text-decoration: none;
+					border-right: solid red 1px;
+					border-left: solid red 1px;
+					padding: 0 20px 1px 20px;
+				}
+	
+					#header #nav ul li a:hover{
+						text-decoration: underline;
+						border-bottom: solid 2px grey;
+						opacity: 0.5;
+					}
+
+/*Left navigation*/
+
+#left_nav{
+	width: 170px;
+}
+
+	#left_nav .gauche{
+		margin-top: -8px;
+	}
+
+		h3{
+			color: #FFFFDD;
+			background: url('images/menu_h3.jpg') no-repeat;
+			height: 30px;
+			padding: 4px 40px;
+		}
+	
+			#left_nav li{
+				background: url('images/menu.jpg');
+				height: 20px;
+				width: 170px;
+			}
+	
+				#left_nav li a{
+					margin-left: 20px;
+					color: red;
+					text-decoration: none;
+				}
+
+					#left_nav li:hover{
+						background: url('images/menu_hover.jpg');
+						cursor: pointer;
+					}
+										/*Petit bémol ici :P Tu verras vite la différence entre ce que j'ai fais et l'original*/
+					
+					#nav_gauche li a:hover{
+						opacity: 0.5;
+					}
+
+#bloc{
+	background: url('images/left.jpg');
+	height: 250px;
+}
+
+	#bloc p{
+		color: #FFFFDD;
+	}
+
+/*Right navigation*/
+
+#right_nav{
+	width: 170px;
+	float: right;
+	margin-top: -548px;
+}
+
+	#right_nav li{
+		background: url('images/menu.jpg');
+		height: 20px;
+		width: 170px;
+	}
+
+		#right_nav li a{
+			margin-left: 20px;
+			color: red;
+			text-decoration: none;
+		}
+
+					#right_nav li:hover{
+						background: url('images/menu_hover.jpg');
+						cursor: pointer;
+					}
+										/*Petit bémol ici :P Tu verras vite la différence entre ce que j'ai fais et l'original*/
+					
+						#nav_gauche li a:hover{
+							opacity: 0.5;
+						}
+
+#bloc2{
+	width: 170px;
+	background: url('images/left.jpg');
+	height: 250px;
+	text-align: center;
+}
+
+	#bloc2 p{
+		color: #FFFFDD;
+	}
+	
+/*Content*/
+
+#content{
+	height: 580px;
+	width: 630px;
+	margin-top: -547px;
+	margin-left: 175px;
+	background: url('images/content.jpg');
+}
+
+	#content h1{
+		text-align: center;
+		color: red;
+	}
+
+/*Footer*/
+
+#footer{
+	background: url('images/footer.jpg');
+	height: 100px;
+	margin-top: 20px;
+}
+
+	#footer #footer_nav ul{
+		float: center;
+		margin-left: 250px;
+		
+	}
+
+		#footer ul li{
+			float: left;
+			margin-left: 30px;
+			margin-top: 30px;
+		}
+
+			#footer ul li a{
+				text-decoration: none;
+				color: red;
+			}

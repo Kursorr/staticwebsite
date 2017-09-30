@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<section>
+  <title>Réaliser un Upload Panel !</title>
+  <section>
+    <title>Do not forget !</title>
+
+    <para>
+        N'oubliez surtout pas de créer et de nommer vos groupes de calques lorsque vous travaillez.
+    </para>
+    <para>
+        Concernant l'outil (U), n'oubliez surtout pas de cocher la case "snap to pixel" comme montré sur le screenshot ci-dessous.
+    </para>
+    <para>
+        Les techniques utilisées dans ce tuto ne sont pas les seules pour arriver au même résultat et probablement pas les plus simples. Si vous avez une autre façon de faire les choses, n'hésitez surtout pas ! :D
+    </para>
+    <para>
+        Ce tutoriel est destiné aux personnes ayant quelques connaissances de base avec photoshop CS5.
+    </para>
+    <para><mediaobject>
+        <imageobject>
+          <imagedata contentwidth="157"
+                     fileref="https://www.hostingpics.net/viewer.php?id=250066remark.jpg"/>
+        </imageobject>
+      </mediaobject></para>
+
+      <para>
+        Créez un nouveau document de 750x700px avec un background sur un calque de couleur #3b3d40
+      </para>
+  </section>
+</section>
